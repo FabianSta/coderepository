@@ -3,6 +3,7 @@
 	<name>ch.mymagicformula</name>
 	<comment></comment>
 	<projects>
+		<project>ch.mymagicformula.web</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
