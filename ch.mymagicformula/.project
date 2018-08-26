@@ -3,6 +3,9 @@
 	<name>ch.mymagicformula</name>
 	<comment></comment>
 	<projects>
+		<project>ch.mymagicformula.web</project>
+		<project>ch.mymagicformula.companyejb</project>
+		<project>ch.mymagicformula.companyejbClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

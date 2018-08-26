@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
     <wb-module deploy-name="ch.mymagicformula">
+                
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ch.mymagicformula.web.war" deploy-path="/" handle="module:/resource/ch.mymagicformula.web/ch.mymagicformula.web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ch.mymagicformula.companyejb.jar" deploy-path="/" handle="module:/resource/ch.mymagicformula.companyejb/ch.mymagicformula.companyejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ch.mymagicformula.companyejbClient.jar" deploy-path="/" handle="module:/resource/ch.mymagicformula.companyejbClient/ch.mymagicformula.companyejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
     </wb-module>
+    
 </project-modules>
